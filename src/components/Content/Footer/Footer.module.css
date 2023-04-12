@@ -1,0 +1,152 @@
+/* ! bottom section Search container */
+
+.BtmSearchCon {
+  position: relative;
+  top: 82vh;
+  background-color: #f7f7f5;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmSearchCon .BtmSearch {
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.BtmSearchCon .BtmSearch .BtmSearchLeft {
+  font-size: 40px;
+  font-weight: 500;
+}
+.BtmSearchCon .BtmSearch .BtmSearchRight {
+  font-size: 30px;
+}
+.BtmSearchCon .BtmSearch .BtmSearchRight input {
+  height: 60px;
+  border-radius: 100px;
+  width: 400px;
+  font-size: 20px;
+  padding-left: 10%;
+}
+.BtmSearchCon .BtmSearch .BtmSearchRight button {
+  height: 60px;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 100px;
+  color: white;
+  position: absolute;
+  right: 13%;
+}
+/* ! footer container */
+.FooterCon {
+  background-color: #f7f7f5;
+  position: relative;
+  top: 80vh;
+  width: 100%;
+  height: 60vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FooterCon .FooterConList {
+  width: 85%;
+  height: 70vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.FooterCon .FooterConList .FooterList1 {
+  width: 30%;
+  height: 80vh;
+}
+.FooterCon .FooterConList .FooterList2 {
+  width: 30%;
+  height: 80vh;
+}
+.FooterCon .FooterConList .FooterList2 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.FooterCon .FooterConList .FooterList2 ul {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.FooterCon .FooterConList .FooterList2 .FooterList2head2 {
+  padding-top: 20px;
+}
+.FooterCon .FooterConList ul li {
+  list-style: none;
+}
+.FooterCon .FooterConList .FooterList3 {
+  width: 30%;
+  height: 80vh;
+}
+.FooterCon .FooterConList .FooterList3 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.FooterCon .FooterConList .FooterList3 ul {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.FooterCon .FooterConList .FooterList4 {
+  width: 30%;
+  height: 80vh;
+}
+.FooterCon .FooterConList .FooterList4 h1 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.FooterCon .FooterConList .FooterList4 div {
+  display: flex;
+  padding-bottom: 30px;
+}
+.FooterCon .FooterConList .FooterList4 div span {
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border-radius: 100px;
+}
+
+/* ! border bottom footer */
+.BtmFooterCon {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmFooterCon .BtmFooterSub {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BtmFooterCon .BtmFooterSub div a {
+  margin-left: 20px;
+  color: white;
+}

@@ -1,0 +1,549 @@
+.container {
+  width: 100%;
+  height: 80vh;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.container .Subcontainer {
+  width: 100%;
+  height: 80vh;
+}
+.Backfigure {
+  width: 100%;
+  height: 120vh;
+}
+.container .Subcontainer .ParaText .UpParaText {
+  font-size: 60px;
+  font-weight: 600;
+  position: absolute;
+  top: 28vh;
+  left: 30%;
+  color: white;
+}
+.container .Subcontainer .ParaText .MiddleParaText {
+  font-size: 100px;
+  font-weight: 700;
+  position: absolute;
+  top: 40vh;
+  left: 35%;
+  color: white;
+}
+.container .Subcontainer .ParaText .DrowParaText {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 65vh;
+  left: 35%;
+  color: white;
+}
+.container .Subcontainer .ParaText .DrowParaText p {
+  width: 90%;
+}
+.wave {
+  position: absolute;
+  top: 80vh;
+  width: 100%;
+  height: 40vh;
+}
+.bottomDiv {
+  height: 40vh;
+  width: 100%;
+}
+.imgfloat4 {
+  position: absolute;
+  top: 40vh;
+  left: -5%;
+  z-index: 1;
+}
+.imgfloat2 {
+  position: absolute;
+  animation-name:para ;
+  animation-duration: 4s;
+   animation-fill-mode: both;
+  top: 45vh;
+  left: 0%;
+  opacity: 0;
+  z-index: 2;
+}
+@keyframes para {
+ 100% {
+    opacity: 1;
+    top: 39vh;
+  }
+}
+.imgfloat3 {
+  position: absolute;
+  top: 45vh;
+  right: -10%;
+}
+.imgfloat1 {
+  position: absolute;
+  top: -25vh;
+  left: 17%;
+    animation-name:para1 ;
+  animation-duration: 4s;
+   animation-fill-mode: both;
+}
+@keyframes para1 {
+ 100% {
+    opacity: 1;
+    top: -30vh;
+  }
+}
+/*! card menu container */
+.CardMenucon {
+  background-color: #f3f3f3;
+  position: relative;
+  top: 40vh;
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.CardMenucon .menuCon {
+  width: 50%;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.CardMenucon .menuCon h1 {
+  font-size: 45px;
+}
+
+.CardMenucon .menuCon .div2 p {
+  font-size: 18px;
+}
+.CardMenucon .menuCon .div3 p {
+  font-size: 18px;
+}
+.CardMenucon .menuCon .div4 ul {
+  list-style: none;
+}
+.CardMenucon .menuCon .div4 ul li {
+  padding-top: 15px;
+  font-size: 18px;
+}
+.CardMenucon .menuCon .div4 ul li a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+.CardMenucon .menuCon .div4 ul li b {
+  font-size: 22px;
+  color: #ed7501;
+}
+.CardMenucon .menuCon .div4 ul li a:hover {
+  color: black;
+}
+.CardMenucon .Cardcon {
+  width: 50%;
+  z-index: 99;
+
+  background-color: #ed7501;
+}
+.CardMenucon .waveImgMidd {
+  position: absolute;
+  top: 150vh;
+  left: 0%;
+  width: 100%;
+}
+/* !card container */
+
+.CardMenucon .Cardcon {
+  height: 150vh;
+  background-color: #f3f3f3;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+.CardMenucon .Cardcon .CardconLeft {
+  width: 85%;
+  height: 100vh;
+}
+.CardMenucon .Cardcon .CardconLeft .CardLeft1 {
+  height: 65vh;
+  width: 80%;
+  box-shadow: 0px 0px 4px 0px gray;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+.CardMenucon .Cardcon .CardconLeft #imgCon1:hover .ImgCd1 {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+.CardMenucon .Cardcon .CardconLeft #imgCon2:hover .ImgCd2 {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+.CardMenucon .Cardcon .CardconRight #imgCon3:hover .ImgCd3 {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+.CardMenucon .Cardcon .CardconRight #imgCon4:hover .ImgCd4 {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+.CardMenucon .Cardcon figure img {
+  height: 30vh;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.4s;
+}
+.CardMenucon .Cardcon .CardconLeft .CardLeft2 {
+  box-shadow: 0px 0px 4px 0px gray;
+  height: 65vh;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+.CardMenucon .Cardcon .CardconRight {
+  width: 85%;
+  height: 130vh;
+}
+
+.CardMenucon .Cardcon .CardconRight .CardRight3 {
+  height: 65vh;
+  width: 80%;
+  box-shadow: 0px 0px 4px 0px gray;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+.CardMenucon .Cardcon .CardconRight .CardRight4 {
+  height: 65vh;
+  box-shadow: 0px 0px 4px 0px gray;
+
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.CardMenucon .Cardcon main {
+  width: 100%;
+  height: 33vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CardMenucon .Cardcon main aside {
+  width: 85%;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.CardMenucon .Cardcon main aside section a {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+}
+.CardMenucon .Cardcon main aside article a {
+  color: black;
+  text-decoration: none;
+}
+.CardMenucon .Cardcon main aside div a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  color: #ed7501;
+}
+.CardMenucon .Cardcon main aside div a span {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.videoCOn {
+  position: relative;
+  top: 40vh;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #f3f3f3;
+}
+.videoCOn .videoCOnLeft {
+  height: 100vh;
+
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.videoCOn .videoCOnLeft div {
+  height: 80vh;
+}
+.videoCOn .videoCOnRight {
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoCOn .videoCOnRight aside {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.videoCOn .videoCOnRight aside div {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60vh;
+}
+.videoCOn .videoCOnRight aside h1 {
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: #ed7501;
+}
+.videoCOn .videoCOnRight aside p {
+  font-size: 19px;
+}
+/* ! art section */
+.Articon {
+  position: relative;
+  top: 40vh;
+  height: 80vh;
+  width: 100%;
+}
+.Articon .head {
+  font-size: 60px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Articon .artIconsSec {
+  height: 70vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.Articon .artIconsSec div {
+  height: 50vh;
+  width: 19%;
+
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ! btm card section */
+.BtmCardCon {
+  position: relative;
+  top: 50vh;
+  width: 100%;
+  height: 130vh;
+}
+.BtmCardCon header {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.BtmCardCon header h1 {
+  font-size: 50px;
+}
+.BtmCardCon .CardSecBtm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.BtmCardCon .CardSecBtm div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.BtmCardCon .BtmCard1 {
+  width: 30%;
+  height: 70vh;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #eee;
+}
+.BtmCardCon .BtmCard2 {
+  width: 30%;
+  height: 70vh;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #eee;
+}
+.BtmCardCon .BtmCard3 {
+  width: 30%;
+  height: 70vh;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #eee;
+}
+.BtmCardCon .BtmCard1 figure img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+.BtmCardCon .BtmCard1 aside {
+  height: 40vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmCardCon .BtmCard1 aside main {
+  height: 40vh;
+  width: 85%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.BtmCardCon .BtmCard1 aside main h1 a {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.BtmCardCon .BtmCard1 aside main p a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.BtmCardCon .BtmCard2 figure img {
+  width: 100%;
+  height: 60vh;
+  border-radius: 10px;
+}
+.BtmCardCon .BtmCard3 figure img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+.BtmCardCon .BtmCard3 aside {
+  height: 40vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmCardCon .BtmCard3 aside main {
+  height: 40vh;
+  width: 85%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.BtmCardCon .BtmCard3 aside main h1 a {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.BtmCardCon .BtmCard3 aside main p a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.BtmCardCon .BtmCard2 .MoveData {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+  width: 20%;
+  top: 60vh;
+  left: 39%;
+}
+.BtmCardCon .BtmCard2 .MoveData div {
+  color: white;
+  font-weight: 600;
+}
+.BtmCardCon .BtmCard2 main {
+  height: 60vh;
+  width: 27%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.4;
+  position: absolute;
+  top: 30vh;
+  border-radius: 10px;
+}
+.BtmCardCon .BtmCard2 .MoveData aside a {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.BtmCardCon .BtmCard2 .MoveData p a {
+  color: white;
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+/* !  bottom heading */
+
+.btmHeadCon {
+  position: relative;
+  top: 40vh;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btmHeadCon .btmHeadSubCon {
+  height: 50vh;
+  width: 80%;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.btmHeadCon .btmHeadSubCon button {
+  padding: 18px 30px;
+  border-radius: 100px;
+  color: #ed7501;
+  border: 1px solid #ed7501;
+  background-color: white;
+}
+.btmHeadCon .btmHeadSubCon h1 {
+  font-size: 40px;
+  color: #ed7501;
+}
+.btmHeadCon .btmHeadSubCon h2 {
+  padding-left: 60px;
+  font-size: 40px;
+  color: #ed7501;
+}
+.btmHeadCon figure img {
+  position: absolute;
+  top: 30vh;
+  right: 0px;
+  width: 100%;
+}

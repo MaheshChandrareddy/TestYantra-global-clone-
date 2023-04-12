@@ -1,0 +1,219 @@
+
+/* ! second way */
+.container {
+  height: 80px;
+  width: 100%;
+}
+.container .subcontainer {
+  height: inherit;
+  display: flex;
+}
+.container .subcontainer ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.container .subcontainer ul li {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .subcontainer ul li:hover {
+  box-shadow: 0px 0px 7px 0px rgba(34,34,34,.35);
+}
+
+.container .subcontainer ul li .search:hover {
+  box-shadow: none;
+  border-bottom: none;
+}
+.container .subcontainer ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.container .subcontainer ul .servicesDisplay {
+  display: none;
+  position: absolute;
+  top: 9.5vh;
+  left: 52.7%;
+  z-index: 1;
+  height: 200px;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius:0 5px;
+}
+.container .subcontainer #ListDis:hover .List{
+  animation: list 400ms;
+  animation-fill-mode: both;
+  left: 0px;
+}
+@keyframes list{
+  100% {
+  border-bottom: 4px solid orange;
+    right: 10px;
+
+  }
+}
+.container .subcontainer .service:hover .servicesDisplay {
+  display: block;
+  z-index: 99;
+  animation: para 600ms ;
+  animation-fill-mode: both;
+  top: 55px;
+  opacity: 0;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 60px;
+  }
+}
+.container .subcontainer ul .servicesDisplay p {
+  margin-left: 20px;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer .products:hover .productDisplay {
+  display: block;
+  z-index: 99;
+  animation: para 600ms ;
+  animation-fill-mode: both;
+  top: 55px;
+  opacity: 0;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 60px;
+  }
+}
+.container .subcontainer ul .productDisplay {
+  position: absolute;
+  top: 9.5vh;
+  left: 60%;
+  display: none;
+  height: 8vh;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius:0 5px;
+}
+.container .subcontainer ul .productDisplay aside {
+  height: 8vh;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.container .subcontainer ul .industriesDisplay {
+  position: absolute;
+  top: 9.5vh;
+  left: 67.3%;
+  display: none;
+  height: 60vh;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius:0 5px;
+}
+.container .subcontainer .industries:hover .industriesDisplay {
+  display: block;
+  z-index: 99;
+  animation: para 600ms ;
+  animation-fill-mode: both;
+  top: 55px;
+  opacity: 0;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 60px;
+  }
+}
+.container .subcontainer ul .industriesDisplay aside {
+  margin-left: 20px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer .about:hover .aboutDisplay {
+  display: block;
+  z-index: 99;
+  animation: para 600ms ;
+  animation-fill-mode: both;
+  top: 55px;
+  opacity: 0;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 60px;
+  }
+}
+.container .subcontainer .career:hover .careerDisplay {
+  display: block;
+  z-index: 99;
+}
+.container .subcontainer ul .aboutDisplay {
+  position: absolute;
+  top: 9.5vh;
+  left: 71%;
+  display: none;
+  height: 40vh;
+  width: 17%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius:0 5px;
+}
+.container .subcontainer ul .aboutDisplay aside {
+  margin-left: 20px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul .careerDisplay {
+  position: absolute;
+  top: 15vh;
+  left: 100%;
+  display: none;
+  height: 15vh;
+  width: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.container .subcontainer ul .careerDisplay aside {
+  margin-left: 20px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul div aside a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.container .subcontainer ul div aside a:hover {
+  cursor: pointer;
+  color: rgb(255, 98, 0);
+}
+.container .subcontainer ul div p a:hover {
+  cursor: pointer;
+  color: rgb(255, 98, 0);
+}
